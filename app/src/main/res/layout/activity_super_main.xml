@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:sun="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+    <com.example.looerpager.views.SunLooperPager
+        android:id="@+id/sun_looper_pager"
+        android:layout_width="match_parent"
+        android:layout_height="120dp"
+        sun:is_title_show="false"
+        sun:show_page_count="multi"
+        sun:switch_time="3000" />
+</RelativeLayout>
